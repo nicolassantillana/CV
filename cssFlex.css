@@ -1,0 +1,23 @@
+#conteneur{
+    border: solid 1px black;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element{
+    height: 100px;
+    width: 40%;
+}
+
+#elem1{
+    background-color: orange;
+}
+
+#elem2{
+    background-color: blue;
+}
+
+#elem3{
+    background-color: greenyellow;
+}
