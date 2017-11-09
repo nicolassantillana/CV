@@ -1,7 +1,10 @@
 #conteneur{
     border: solid 1px black;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 900px;
+    align-content: space-between;
+    height: 400px;
 }
 
 .element{
@@ -10,14 +13,18 @@
     margin: 0;
 }
 
-#elem1{
+.a{
     background-color: orange;
+    order: 3;
 }
 
-#elem2{
+.b{
     background-color: blue;
+    order: 2;
+    flex: 1;
 }
 
-#elem3{
+.c{
     background-color: greenyellow;
+    order: 1;
 }
