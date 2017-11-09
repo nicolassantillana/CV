@@ -2,12 +2,43 @@ body{
     background-image: url("images/background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: 'aleoregular', Arial, serif;
 }
 
 h2{
     color: brown;
 }
 
+h1{
+    text-decoration: underline;
+}
+
 h1, #descritpion{
     text-align: center;
+}
+
+.imageFlottante{
+    float: right;
+}
+
+.enDessous{
+    clear: both;
+}
+
+#profilPicture{
+    border: solid black 2px;
+    box-shadow: 6px 6px 6px black;
+}
+
+/* Police de carracère */
+@font-face {
+    font-family: 'aleoregular';
+    src: url('font/Aleo-Regular-webfont.eot');
+    src: url('font/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Aleo-Regular-webfont.woff') format('woff'),
+         url('font/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('font/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
