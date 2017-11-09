@@ -1,13 +1,13 @@
 #conteneur{
     border: solid 1px black;
-    height: 300px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .element{
     height: 100px;
-    width: 40%;
+    width: 200px; 
+    margin: 0;
 }
 
 #elem1{
