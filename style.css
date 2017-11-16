@@ -135,11 +135,13 @@ h1{
     text-decoration: underline;
 }
 
-
 .enDessous{
     clear: both;
 }
 
+.border{
+    border-right: solid brown 1px; 
+}
 
 /* Police de carracère */
 @font-face {
